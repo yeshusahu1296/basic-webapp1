@@ -34,7 +34,8 @@ body {
 
 
 .content-body {
-
+    padding-top: 25px;
+    float: left;
     display: flex;
 
     justify-content: space-around;
@@ -76,15 +77,15 @@ body {
 .sushi {
     float: right;
 
-    background-color: aquamarine;
+    background-color: grey;
 
-    height: 300px;
+    height: 250px;
 
-    width: 450px;
+    width: 430px;
 
-    padding: 20px;
+    padding: 0 0 10px 10px;
 
-    margin: 0 20px;
+    margin: 0 10px;
 
 }
 
@@ -92,13 +93,15 @@ body {
 
 
 #chicken {
+    font-size: 27px;
+
+    float: right;
     
-  float: right;
     background-color: aliceblue;
 
     width: fit-content;
 
-    padding: 0;
+    padding: 0
 
 }
 
@@ -107,6 +110,8 @@ body {
 
 #beef {
     float: right;
+
+    font-size: 27px;
 
     background-color: aliceblue;
 
@@ -134,7 +139,7 @@ body {
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 
     body {
 
@@ -149,9 +154,10 @@ body {
 
         display: flex;
 
-        justify-content: center;
+        text-align: center;
 
         flex-direction: column;
+ 
 
     }
 
@@ -177,7 +183,7 @@ body {
 
         width: 45%;
 
-        padding: 20px;
+        padding:  40px 0 40px 0;
 
         margin: 20px;
 
@@ -208,7 +214,7 @@ body {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 
     body {
 
@@ -253,7 +259,7 @@ body {
 
         width: 100%;
 
-        padding: 20px;
+        padding:  40px 0 40px 0;
 
         margin: 20px;
 
